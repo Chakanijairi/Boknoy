@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="helmet" x1="60" y1="28" x2="140" y2="95" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e3a5f"/>
+      <stop offset="1" stop-color="#5b21b6"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="50" y1="100" x2="150" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e40af"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+  </defs>
+  <!-- scooter back wheel -->
+  <circle cx="52" cy="178" r="22" fill="#0f172a" stroke="#312e81" stroke-width="3"/>
+  <circle cx="52" cy="178" r="10" fill="#64748b"/>
+  <!-- scooter body -->
+  <path d="M45 165 L140 155 L155 168 L50 182 Z" fill="#334155" stroke="#1e1b4b" stroke-width="2"/>
+  <rect x="125" y="118" width="8" height="45" rx="2" fill="#475569"/>
+  <!-- front wheel -->
+  <circle cx="158" cy="178" r="20" fill="#0f172a" stroke="#312e81" stroke-width="3"/>
+  <circle cx="158" cy="178" r="8" fill="#64748b"/>
+  <!-- rider legs -->
+  <path d="M95 145 L88 175 L75 178" stroke="#1e3a8a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M115 148 L122 172 L135 175" stroke="#1e3a8a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- torso -->
+  <ellipse cx="105" cy="125" rx="38" ry="42" fill="url(#suit)"/>
+  <!-- arms -->
+  <path d="M72 118 L55 108" stroke="#312e81" stroke-width="12" stroke-linecap="round"/>
+  <path d="M138 120 L158 112" stroke="#312e81" stroke-width="12" stroke-linecap="round"/>
+  <!-- hands on handle -->
+  <circle cx="156" cy="110" r="9" fill="#fcd34d" stroke="#b45309" stroke-width="2"/>
+  <!-- helmet -->
+  <path d="M65 55 C65 25 95 12 120 18 C150 25 155 55 148 82 C142 98 125 105 105 102 C75 98 65 78 65 55Z" fill="url(#helmet)" stroke="#312e81" stroke-width="2"/>
+  <path d="M62 78 C45 82 38 95 42 108 L168 108 C172 95 165 82 148 78" fill="#1e1b4b" opacity="0.35"/>
+  <!-- visor -->
+  <path d="M72 58 C90 48 125 48 142 58 C138 72 125 80 107 80 C89 80 76 70 72 58Z" fill="#38bdf8" stroke="#0c4a6e" stroke-width="2" opacity="0.9"/>
+  <!-- friendly eyes hint -->
+  <ellipse cx="92" cy="62" rx="6" ry="7" fill="#0f172a"/>
+  <ellipse cx="122" cy="62" rx="6" ry="7" fill="#0f172a"/>
+  <circle cx="94" cy="60" r="2" fill="#fff"/>
+  <circle cx="124" cy="60" r="2" fill="#fff"/>
+  <!-- smile -->
+  <path d="M98 88 Q108 96 118 88" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- delivery box -->
+  <rect x="18" y="95" width="38" height="32" rx="4" fill="#f59e0b" stroke="#b45309" stroke-width="2"/>
+  <text x="37" y="116" text-anchor="middle" fill="#422006" font-size="14" font-family="system-ui,sans-serif" font-weight="bold">B</text>
+</svg>
